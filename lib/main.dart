@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:myapp/container_widget.dart';
+import 'package:myapp/row_column/row_widget.dart';
+import 'package:myapp/row_column/column_widget.dart';
+import 'package:myapp/row_column/row_column_widget.dart';
+import 'package:myapp/latihan_flutter/awal.dart';
 
 void main(){
   runApp(MyApp());
@@ -17,9 +21,7 @@ class MyApp extends StatelessWidget {
           leading: Icon(Icons.menu),
           centerTitle: true,
         ),
-        body: Center(
-          child: belajarContainer(),
-        ),
+        body: Latihan()
       ),
     );
   }
