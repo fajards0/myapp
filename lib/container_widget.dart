@@ -18,7 +18,7 @@ class belajarContainer extends StatelessWidget {
         child: Text("Wakanda Forever",
         style: TextStyle(color: Colors.white,
         fontWeight: FontWeight.bold,
-        fontSize: 24
+        fontSize: 23
          ),
         ),
       ),
